@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from flask_debugtoolbar import DebugToolbarExtension
 from stories import story
+import config
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "potatoesRlife"
